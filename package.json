@@ -1,0 +1,22 @@
+{
+  "name": "card-ai",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npm run build:live --harmony",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts"
+  },
+  "author": "lg188",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/node": "^8.5.2",
+    "nodemon": "^1.14.1",
+    "ts-node": "^4.0.2",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "@types/winston": "^2.3.7",
+    "winston": "^2.4.0"
+  }
+}
