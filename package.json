@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@types/winston": "^2.3.7",
+    "tslint": "^5.8.0",
     "winston": "^2.4.0"
   }
 }

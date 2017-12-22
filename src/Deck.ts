@@ -1,9 +1,9 @@
-import { Card } from './Card';
+import { Card } from "./Card";
 
-export class Deck{
-  cards: Card[];
+export class Deck {
+  public cards: Card[];
 
-  constructor(cards: Card[]){
+  constructor(cards: Card[]) {
     this.cards = cards;
   }
 }
